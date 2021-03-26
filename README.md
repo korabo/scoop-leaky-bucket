@@ -14,5 +14,5 @@ This is my scoop bucket.
 
 ## CheckVer
 ```
-Checkver/RLogin-2.25.1:FIDV64-4519294/FIDV32-4519291
-```
+Checkver/RLogin-2.25.9:FIDV64-6058428/FIDV32-6058427
+
