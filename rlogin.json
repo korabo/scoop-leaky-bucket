@@ -1,32 +1,35 @@
 {
-  "homepage": "https://kmiya-culti.github.io/RLogin/",
-  "version": "2.25.0",
-  "bin": "RLogin.exe",
-  "shortcuts": [
-    ["RLogin.exe", "RLogin"]
-  ],
-  "checkver": {
+    "homepage": "https://kmiya-culti.github.io/RLogin/",
+    "version": "2.25.1",
+    "bin": "RLogin.exe",
+    "shortcuts": [
+        [
+            "RLogin.exe",
+            "RLogin"
+        ]
+    ],
+    "checkver": {
         "url": "https://github.com/korabo/scoop-leaky-bucket/",
         "re": "Checkver/RLogin-(?<version>[\\d.]+):FIDV64-(?<fidv64>[\\d]+)/FIDV32-(?<fidv32>[\\d]+)"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/kmiya-culti/RLogin/files/4378144/rlogin_x64.zip",
-      "hash": ""
     },
-    "32bit": {
-      "url": "https://github.com/kmiya-culti/RLogin/files/4378137/rlogin_x32.zip",
-      "hash": ""
-    }
-  },
-  "autoupdate": {
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/kmiya-culti/RLogin/files/$machedFidv64/rlogin_x64.zip"
-      },
-      "32bit": {
-        "url": "https://github.com/kmiya-culti/RLogin/files/$machedFidv32/rlogin_x64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/kmiya-culti/RLogin/files/4519294/rlogin_x64.zip",
+            "hash": "f098c38495f6abed7c7f86ef91b443a475e1a493ddbc3f73af794cb73b7e4fab"
+        },
+        "32bit": {
+            "url": "https://github.com/kmiya-culti/RLogin/files/4519291/rlogin_x32.zip",
+            "hash": "c5ae89459a494f7983a56c9af8fb5e1f64f446e4e2cc6349075befaecd475e48"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kmiya-culti/RLogin/files/$matchFidv64/rlogin_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/kmiya-culti/RLogin/files/$matchFidv32/rlogin_x32.zip"
+            }
+        }
     }
-  }
 }
